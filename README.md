@@ -73,15 +73,22 @@ Failure scenarios are explicitly handled with fallback UI and user recovery acti
 
 ## 🧩 Project Structure
 
-```
-
 src/
-└── components/
-├── ProductCard/
-├── ProductItemDetails/
-└── SimilarProductItem/
-
-```
+│
+├── components/
+│ ├── ProductCard/
+│ │ ├── index.js
+│ │ └── index.css
+│ │
+│ ├── ProductItemDetails/
+│ │ ├── index.js
+│ │ └── index.css
+│ │
+│ └── SimilarProductItem/
+│ ├── index.js
+│ └── index.css
+│
+└── App.js
 
 ---
 
