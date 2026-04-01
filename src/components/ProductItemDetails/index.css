@@ -1,0 +1,155 @@
+/* Write your CSS here */
+.product-item-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.product-image-container {
+}
+
+.product-text-details-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 350px;
+}
+
+.specific-product-img {
+  height: 450px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.specific-product-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.price {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.rating-reviews-section {
+  display: flex;
+  align-items: center;
+}
+
+.rating-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 15px;
+  width: 75px;
+  height: 40px;
+}
+
+.specific-product-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.star-img {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.specific-product-review {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.specific-product-description {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.plus-minus-container {
+  display: flex;
+  align-items: center;
+}
+
+.plus-minus-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.items-count {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cart-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.similar-items-container {
+  display: flex;
+}
+
+.similar-items-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 26px;
+  margin-left: 35px;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+.products-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+.product-failure-heading-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.continue-shopping-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
